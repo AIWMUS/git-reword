@@ -1,0 +1,7 @@
+#! /bin/bash
+
+mkdir build &> /dev/null
+cd build
+rm -R * &> /dev/null
+cmake ..
+cmake --build .
